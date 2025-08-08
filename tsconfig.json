@@ -9,10 +9,19 @@
     "resolveJsonModule": true,
     "skipLibCheck": true,
     "allowJs": false,
-    "types": ["react", "react-native"],
+    "types": [
+      "react",
+      "react-native"
+    ],
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true
   },
-  "include": ["app/**/*.ts", "app/**/*.tsx"],
-  "exclude": ["node_modules"]
+  "include": [
+    "app/**/*.ts",
+    "app/**/*.tsx"
+  ],
+  "exclude": [
+    "node_modules"
+  ],
+  "extends": "expo/tsconfig.base"
 }
