@@ -5,20 +5,26 @@
     "jsx": "react-native",
     "strict": true,
     "noEmit": true,
-    "moduleResolution": "node",
+    "moduleResolution": "bundler",
     "resolveJsonModule": true,
     "skipLibCheck": true,
     "allowJs": false,
     "types": [
       "react",
-      "react-native"
+      "react-native",
+      "node"
     ],
     "esModuleInterop": true,
-    "allowSyntheticDefaultImports": true
+    "allowSyntheticDefaultImports": true,
+    "allowImportingTsExtensions": true
   },
   "include": [
     "app/**/*.ts",
-    "app/**/*.tsx"
+    "app/**/*.tsx",
+    "src/**/*.ts",
+    "tests/**/*.ts",
+    "playwright.config.ts",
+    "index.tsx"
   ],
   "exclude": [
     "node_modules"

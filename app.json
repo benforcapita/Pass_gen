@@ -1,0 +1,15 @@
+{
+  "expo": {
+    "name": "Pass_gen",
+    "slug": "pass-gen",
+    "scheme": "pass-gen",
+    "version": "1.1.0",
+    "orientation": "default",
+    "userInterfaceStyle": "dark",
+    "web": {
+      "bundler": "metro",
+      "output": "single",
+      "name": "Pass_gen"
+    }
+  }
+}
